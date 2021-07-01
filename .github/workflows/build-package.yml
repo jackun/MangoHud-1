@@ -2,10 +2,10 @@ name: Build release package
 on:
   release:
     types: [published]
-  push:
-    tags: ["v*"]
-    branches:
-      - main
+#  push:
+#    tags: ["v*"]
+#    branches:
+#      - main
   workflow_dispatch:
 
 jobs:
